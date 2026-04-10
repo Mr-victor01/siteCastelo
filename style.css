@@ -177,7 +177,113 @@ p {margin-bottom: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.footer {
+    background-color: #1a1a1a;
+    color: #ddd;
+    padding: 60px 40px 20px;
+    font-family: 'Arial', sans-serif;
+    border-top: 4px solid #0b8a4e; /* verde que aparece na imagem */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;   /* 3 colunas */
+  gap: 50px;
+}
+
+.footer-column h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footer-column h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #0b8a4e;
+}
+ .logo {
+  display: flex;
+  flex-direction: column;     /* coloca um embaixo do outro */
+  align-items: center;        /* centraliza horizontalmente */
+  text-align: center;         /* centraliza o texto */
+  gap: 15px;                  /* espaço entre logo e texto */
+}
+.centerlog{ 
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 15px;
+}
+
+.logo img {
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+  gap: 10px;
+}
+
+.contact-list a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: #0b8a4e;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+.links-list li {
+  margin-bottom: 10px;
+}
+
+.links-list a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.links-list a:hover {
+  color: #0b8a4e;
+}
+
+.footer-bottom {
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  font-size: 0.95rem;
+}
+
+/* Responsivo - no celular fica em uma coluna só */
 @media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
     body {
         padding: 15px 8px;
     }
@@ -198,4 +304,3 @@ p {margin-bottom: 16px;
         width: 190px;
         height: 190px;
     }
-}
