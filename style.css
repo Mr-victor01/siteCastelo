@@ -20,7 +20,6 @@ body {
     height: auto;
     max-height: clamp(55px, 7vw, 90px);
 }
-
 .logo-castelo img {
     display: block;
     width: 100%;
