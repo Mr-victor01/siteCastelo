@@ -156,7 +156,7 @@ p {margin-bottom: 16px;
 strong{
     color: #1a5e34;
 }
-.mes-container {
+.culto-container {
     background-color: white;
     border: 2px solid #1a5e34;
     border-radius: 12px;
@@ -166,23 +166,23 @@ strong{
     text-align: center;
 }
 
-.mes-container h3 {
+.culto-container h3 {
     margin-bottom: 20px;
     padding-bottom: 12px;
     border-bottom: 2px solid #1a5e34;
 }
 
-.mes-container ul.lista {
+.culto-container ul.lista {
     list-style: none;
 }
 
-.mes-container li {
+.culto-container li {
     padding: 12px 8px;
     border-bottom: 1px dashed #ddd;
     font-size: 1.05rem;
 }
 
-.mes-container li:last-child {
+.culto-container li:last-child {
     border-bottom: none;
 }
 
