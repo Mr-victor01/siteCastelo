@@ -104,19 +104,20 @@ nav a {
 @media (max-width: 480px) {
     nav ul {
         flex-direction: row;
-        gap: 3px;
+        gap: 8px;
         align-items: center;
     }
     nav li {
         width: auto;
-        max-width: 100px;
+        min-width: max-content;
     }
     nav a {
         width: 100%;
         text-align: center;
-        padding: 2px 0;
-        white-space: normal;
-    } .header-left {
+        padding: 8px 0;
+        white-space: nowrap;
+    }
+    .header-left {
         height: 20px;
     }
 }
