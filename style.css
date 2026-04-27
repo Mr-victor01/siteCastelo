@@ -106,12 +106,12 @@ nav a {
     }
     nav li {
         width: auto;
-        max-width: 170px;
+        max-width: 100px;
     }
     nav a {
         width: 100%;
         text-align: center;
-        padding: 6px 0;
+        padding: 2px 0;
         white-space: normal;
     }
 }
