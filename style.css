@@ -101,17 +101,17 @@ nav a {
 @media (max-width: 480px) {
     nav ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 3px;
         align-items: center;
     }
     nav li {
-        width: 100%;
-        max-width: 280px;
+        width: auto;
+        max-width: 170px;
     }
     nav a {
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        padding: 6px 0;
         white-space: normal;
     }
 }
