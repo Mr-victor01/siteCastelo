@@ -1,0 +1,13 @@
+# Robots.txt para Igreja Presbiteriana Castelo Forte
+# Permite que todos os crawlers indexem o site
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /*.pdf
+
+# Sitemap
+Sitemap: https://mr-victor01.github.io/siteCastelo/sitemap.xml
+
+# Tempo mínimo entre requisições (em segundos)
+Crawl-delay: 1
