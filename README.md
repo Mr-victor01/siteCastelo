@@ -1,10 +1,10 @@
 #  Projeto Website – Igreja Presbiteriana Castelo Forte
 
-Este projeto tem como objetivo o desenvolvimento do site oficial da Igreja Presbiteriana Castelo Forte, servindo tanto como uma ferramenta de comunicação da igreja quanto como um ambiente prático de aprendizado em desenvolvimento full stack ao longo do ano, com foco especial no Basic Training Liferay.
+Este projeto tem como objetivo o desenvolvimento do site oficial da Igreja Presbiteriana Castelo Forte, servindo tanto como uma ferramenta de comunicação da igreja quanto como um ambiente prático de aprendizado ao conteudos aprendidos no Basic Training Liferay.
 
  O propósito do projeto é criar um site institucional simples, organizado e funcional, capaz de centralizar informações como horários de cultos, eventos, ministérios e avisos, além de integrar conteúdos como vídeos.
 
- Durante o desenvolvimento, estão sendo utilizadas e estudadas tecnologias fundamentais de front-end, como HTML5, CSS3 e JavaScript. Também estão sendo aprendidos conceitos iniciais de back-end, especialmente a integração entre front e back-end e o uso de APIs. Como parte central do aprendizado, está incluída a plataforma Liferay, com o objetivo de compreender a construção de portais mais robustos e escaláveis.
+ Durante o desenvolvimento, estão sendo utilizadas e estudadas tecnologias fundamentais de front-end, como HTML5, CSS3 e JavaScript. Também estão sendo aprendidos conceitos iniciais de back-end, especialmente a integração entre front e back-end e o uso de APIs.
 
  O projeto também envolve o uso de ferramentas essenciais para o desenvolvimento moderno, como Git e GitHub para versionamento de código, VS Code como editor e Linux como ambiente de desenvolvimento.
 
@@ -17,5 +17,7 @@ Este projeto tem como objetivo o desenvolvimento do site oficial da Igreja Presb
  O projeto encontra-se atualmente em fase de desenvolvimento e evolução contínua.
 
  Mais do que um projeto técnico, este trabalho possui também um propósito ministerial: servir à igreja local com excelência, utilizando a tecnologia como meio de apoio à comunicação e à propagação do evangelho.
+
+ SDG!
 
  ---
